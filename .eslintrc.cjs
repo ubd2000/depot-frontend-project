@@ -15,4 +15,15 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  settings: {
+    react: {
+      version: '18.2.0',
+    },
+    'import/parsers': { '@typescript-eslint/parser': ['.ts', '.tsx'] },
+    'import/resolver': {
+      typescript: {
+        directory: '/src',
+      },
+    },
+  },
 }
