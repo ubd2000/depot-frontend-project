@@ -7,6 +7,9 @@ import {
 } from 'react-router-dom';
 import Main from './pages/main';
 import Test from './pages/test';
+import ProductDetail from './pages/product/product-detail';
+import ProductList from './pages/product/product-list';
+import Contact from './pages/contact';
 
 const App: React.FC = () => {
   const [count, setCount] = useState(0)
@@ -23,16 +26,16 @@ const App: React.FC = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/main">Main</Link>
-              </li>
-              <li>
                 <Link to="/test">Test</Link>
               </li>
             </ul>
           </nav>
 
           <Routes>
-            <Route path="/main" element={<Main />} />
+            <Route path="/" element={<Main />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/product/detail" element={<ProductDetail />} />
+            <Route path="/product/list" element={<ProductList />} />
             <Route path="/test" element={<Test />} />
           </Routes>
         </div>
