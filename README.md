@@ -1,14 +1,19 @@
 개발환경
 - node : v18.19.0
 
-기술스택
-- React + TypeScript + Vite
-- 코드 품질 : ESLint
-- 번들러 : vite
-
 script
+```
 $ npm install
 $ npm run dev
+<<<<<<< HEAD
+```
+
+기술스택
+- React 
+- TypeScript
+- webpack
+- ESLint
+=======
 
 # git commit type
 * Feat : 새로운 기능을 추가하는 경우
@@ -26,3 +31,4 @@ $ npm run dev
 * Move : 코드의 이동이 있는경우
 * Updated : 계정이나 버전 업데이트가 있을 때 사용. 주로 코드보다는 문서나, 리소스, 라이브러리등에 사용합니다.
 * Comment : 필요한 주석 추가 및 변경
+>>>>>>> 12f74cb1f6f65b2aa5fe612c2f673fa1c019df13
