@@ -5,9 +5,9 @@ import {
   product_1, product_2, product_3, product_4, product_5,
   product_6, product_7, product_8, product_9, product_10,
   deal_ofthe_week
-} from '../../utils/images.js';
+} from '../../utils/images.import';
 
-const Main = () => {
+const Main: React.FC = () => {
   return (
     <div className="super_container">
 
