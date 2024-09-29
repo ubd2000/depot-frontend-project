@@ -36,7 +36,6 @@
  */
 
 // t: current time, b: begInnIng value, c: change In value, d: duration
-import $ from "jquery";
 
 $.easing["jswing"] = $.easing["swing"];
 

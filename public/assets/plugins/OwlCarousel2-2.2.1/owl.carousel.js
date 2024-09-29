@@ -16,7 +16,6 @@
  * @todo stagePadding calculate wrong active classes
  */
 
-import $ from "jquery";
 
 (function ($, window, document, undefined) {
   /**

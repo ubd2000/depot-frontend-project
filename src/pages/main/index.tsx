@@ -77,7 +77,7 @@ const Main: React.FC = () => {
             <div className="row">
               <div className="col-lg-12 text-right">
                 <div className="logo_container">
-                  <a href="#">colo<span>shop</span></a>
+                  <a href="/">colo<span>shop</span></a>
                 </div>
                 <nav className="navbar">
                   <ul className="navbar_menu">
@@ -86,7 +86,7 @@ const Main: React.FC = () => {
                     <li><a href="#">promotion</a></li>
                     <li><a href="#">pages</a></li>
                     <li><a href="#">blog</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="/contact">contact</a></li>
                   </ul>
                   <ul className="navbar_user">
                     <li><a href="#"><i className="fa fa-search" aria-hidden="true"></i></a></li>
@@ -771,7 +771,7 @@ const Main: React.FC = () => {
                 <ul className="footer_nav">
                   <li><a href="#">Blog</a></li>
                   <li><a href="#">FAQs</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
+                  <li><a href="/contact">Contact us</a></li>
                 </ul>
               </div>
             </div>
