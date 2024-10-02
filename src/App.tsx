@@ -13,17 +13,6 @@ const App: React.FC = () => {
     <>
       <Router>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/test">Test</Link>
-              </li>
-            </ul>
-          </nav>
-
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/contact" element={<Contact />} />
