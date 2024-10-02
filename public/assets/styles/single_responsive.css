@@ -164,17 +164,6 @@
 		margin-top: 30px;
 		margin-bottom: 40px;
 	}
-	.footer_nav_container
-	{
-		height: auto;
-		margin-top: 65px;
-	}
-	.footer_social
-	{
-		height: auto;
-		margin-top: 20px;
-		margin-bottom: 65px;
-	}
 }
 
 /************
@@ -342,26 +331,6 @@
 		margin-left: 0px;
 		margin-top: 7px;
 	}
-	.cr
-	{
-		display: block;
-		margin-right: 0px;
-		margin-bottom: 30px;
-		font-size: 13px;
-	}
-	.footer_nav
-	{
-		margin-bottom: 20px;
-	}
-	.footer_nav li
-	{
-		display: block;
-		margin-right: 0px;
-	}
-	.footer_nav li a
-	{
-		font-size: 13px;
-	}
 }
 
 /************
@@ -509,23 +478,6 @@
 		font-size: 12px;
 		width: 130px;
 		height: 36px;
-	}
-	.footer_nav_container
-	{
-		margin-top: 35px;
-	}
-	.cr
-	{
-		margin-bottom: 20px;
-	}
-	.footer_nav
-	{
-		margin-bottom: 20px;
-	}
-	.footer_social
-	{
-		margin-top: 5px;
-		margin-bottom: 30px;
 	}
 }
 
