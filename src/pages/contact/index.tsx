@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <nav className="navbar">
                   <ul className="navbar_menu">
-                    <li><a href="index.html">home</a></li>
+                    <li><a href="/">home</a></li>
                     <li><a href="#">shop</a></li>
                     <li><a href="#">promotion</a></li>
                     <li><a href="#">pages</a></li>
@@ -162,7 +162,7 @@ const Contact = () => {
 
             <div className="breadcrumbs d-flex flex-row align-items-center">
               <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li className="active"><a href="#"><i className="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
               </ul>
             </div>

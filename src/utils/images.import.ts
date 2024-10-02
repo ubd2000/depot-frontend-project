@@ -22,6 +22,9 @@ import product_8 from "../../public/assets/images/product_8.png";
 import product_9 from "../../public/assets/images/product_9.png";
 import product_10 from "../../public/assets/images/product_10.png";
 import deal_ofthe_week from "../../public/assets/images/deal_ofthe_week.png";
+import desc_1 from "../../public/assets/images/desc_1.jpg";
+import desc_2 from "../../public/assets/images/desc_2.jpg";
+import desc_3 from "../../public/assets/images/desc_3.jpg";
 
 export {
   slider_1,
@@ -48,4 +51,7 @@ export {
   product_9,
   product_10,
   deal_ofthe_week,
+  desc_1,
+  desc_2,
+  desc_3
 };
