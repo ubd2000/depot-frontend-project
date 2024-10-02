@@ -647,7 +647,7 @@ section {
   color: #51545f;
 }
 .deal_ofthe_week_button {
-  width: 140px;
+  width: 140px !important;
   background: #1e1e27;
   margin-top: 52px;
 }

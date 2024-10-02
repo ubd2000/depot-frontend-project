@@ -492,7 +492,7 @@ section
 	background: #1e1e27;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	width: 165px;
+	width: 165px !important;
 	border: none;
 	height: 46px;
 	cursor: pointer;
